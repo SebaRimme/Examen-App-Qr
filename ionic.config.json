@@ -1,0 +1,7 @@
+{
+  "name": "Codigo-QR-V3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

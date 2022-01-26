@@ -1,0 +1,39 @@
+<div class="container">
+  <ion-card  class="principal">
+    <ion-card-header class="ion-text-center">
+      <ion-row>
+        <ion-col size="10" offset="1">
+          <ion-header [translucent]="true">
+              <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_DuocUC.svg/1200px-Logo_DuocUC.svg.png" 
+              alt="Duoc Uc"
+              >
+          </ion-header>
+        </ion-col>
+      </ion-row>
+      <ion-card-title color="light">
+        Bienvenidos/das a la App QR
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <br>
+      <br>
+      <ion-row>
+        <ion-col>
+          <ion-button expand="block" [routerLink]= "'login-profesor'" color="success">
+            Profesores
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <br>
+      <br>
+      <ion-row>
+        <ion-col>
+          <ion-button expand="block" [routerLink]= "'login-alumno'" color="success">
+            Alumnos
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</div> 
